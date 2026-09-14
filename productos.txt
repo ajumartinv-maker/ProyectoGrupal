@@ -1,0 +1,10 @@
+1;Celular;364190
+2;Camara;262007
+3;Celular;459867
+4;Tablet;483987
+5;Tablet;370034
+6;Mouse;45675
+7;Tablet;351240
+8;Monitor;97381
+9;Impresora;307350
+10;Impresora;486178

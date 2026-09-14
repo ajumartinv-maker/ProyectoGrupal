@@ -1,0 +1,5 @@
+TI;1000640945;Camila;Garcia
+CE;1000255265;Andrea;Martinez
+CC;1000643136;Julian;Rodriguez
+CE;1000511088;Camila;Lopez
+CC;1000012649;Jose;Ramirez
