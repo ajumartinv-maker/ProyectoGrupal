@@ -1,0 +1,6 @@
+Nombre;Recaudado
+Maria Rodriguez;0
+Camila Sanchez;0
+Juli Rodriguez;0
+Camila Garcia;0
+Jineth Garcia;0

@@ -1,0 +1,11 @@
+Nombre;Precio;Cantidad
+Teclado;385597;170
+Camara;64894;118
+Celular;486206;115
+Mouse;125202;108
+Camara;366922;95
+Monitor;221645;70
+Laptop;219625;56
+Monitor;432164;53
+Celular;391951;47
+Laptop;204423;41
