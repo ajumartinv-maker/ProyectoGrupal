@@ -1,0 +1,105 @@
+CONCLUSIONES DEL PROYECTO
+
+
+1. LO QUE APRENDIMOS
+
+
+Durante este proyecto aprendimos muchas cosas nuevas sobre programación
+en Java. 
+
+Lo más importante que aprendimos fue:
+
+- A leer archivos de texto con la clase Scanner. Ahora sabemos cómo
+  abrir un archivo y sacar la información línea por línea.
+
+- A escribir archivos con PrintWriter. Así pudimos crear los reportes
+  de vendedores y productos.
+
+- A usar arreglos para guardar muchos datos del mismo tipo. Por
+  ejemplo, guardamos todos los nombres de los productos en un arreglo.
+
+- A usar ciclos for y while para recorrer los datos y hacer cálculos.
+
+- A ordenar datos usando el método de la burbuja, que aunque no es
+  el más rápido, es fácil de entender.
+
+- A trabajar en equipo usando GitHub, que nos permitió compartir el
+  código y subir los cambios sin perder nada.
+
+- A documentar el código con Javadoc, para que otras personas puedan
+  entender lo que hicimos.
+
+Aprendimos a resolver un problema completo: desde generar
+los datos hasta producir un reporte final mas ordenado.
+
+
+2. PARA QUÉ NOS SIRVE EN LA VIDA PROFESIONAL
+
+
+Todo lo que aprendimos en este proyecto nos sirve para muchas cosas
+en el futuro. Algunas aplicaciones son:
+
+- En una empresa, podríamos hacer programas que lean las ventas de
+  un mes y generen un reporte automático de cuáles fueron los
+  vendedores que más vendieron, y Eso es exactamente lo que hicimos 
+  por medio de esta Aplicación.
+
+- En un banco o en una tienda se podría analizar grandes cantidades
+  de información guardados en archivos y sacar conclusiones.
+
+- En cualquier trabajo donde haya que procesar información, saber
+  leer archivos y ordenar datos es una aplicación muy útil.
+
+- Java es uno de los lenguajes más usados en las empresas, nos permite
+ Aprender a programar en Java nos abre muchas puertas laborales.
+
+- El trabajo en equipo con GitHub es algo que se usa todos los días
+  en diferentes empresas de tecnología, y así generamos experiencia.
+
+En este proyecto nos dio herramientas que podemos
+usar en cualquier trabajo relacionado con tecnología, datos o
+programación.
+
+
+3. DIFICULTADES QUE TUVIMOS
+
+
+Este proyecto no fue fácil. Tuve varias dificultades:
+
+- La primera y más grande: me tocó hacerlo solo. Era un trabajo
+  en grupo, pero por falta de compromiso y comunicación terminé
+  haciéndolo yo solo.
+  Eso hizo que todo fuera más pesado y que tuviera que resolver
+  cada problema por mi cuenta.
+
+- Java no es mi fuerte. Me confundía con la sintaxis, con los
+  arreglos, con los ciclos. Muchas veces tuve que buscar ejemplos
+  en internet o volver a leer las lecturas para entender.
+
+- Leer archivos de texto fue complicado al principio. No entendía
+  cómo hacer para que el programa abriera un archivo y sacara la
+  información. Lo resolví practicando.
+
+- Ordenar los datos de mayor a menor me costó. Intenté varias
+  formas y al final usé el método de la burbuja, que aunque es
+  básico, me funcionó.
+
+- Trabajar con GitHub también fue un reto. Al principio no sabía
+  cómo subir los archivos y me daba miedo dañar algo. Después
+  aprendí a hacerlo paso a paso.
+
+- Documentar el código con Javadoc me tomó tiempo, pero entendí
+  que es importante para que otros entiendan lo que uno hizo.
+
+A pesar de todo, logré terminar el proyecto. No quedó perfecto,
+pero funciona y eso me hace sentir orgulloso. Aprendí que aunque
+no sea bueno en algo, pero igual lo hice lo mejor posible.
+
+
+CONCLUSIÓN FINAL
+
+
+Este proyecto nos ayudó a poner en práctica todo lo que aprendimos
+en el módulo. No solo aprendimos a programar, a resolver problemas 
+y a documentar nuestro trabajo. Me siento orgulloso del resultado 
+y sabemos que lo que aprendimos nos servirá en nuestra vida profesional.
