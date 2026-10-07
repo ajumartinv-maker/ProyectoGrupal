@@ -4,11 +4,17 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * Clase principal que lee los archivos y crea los reportes.
- *
+ * Clase principal que lee los archivos generados por GenerateInfoFiles
+ * y crea los reportes de vendedores y productos.
+ * 
  * @author Andres Julian Martin Vargas
- */
+  */
 public class Main {
+	/**
+	 * Metodo principal. Lee los archivos de productos, vendedores y ventas,
+	 * calcula los totales y genera los reportes ordenados.
+	 * 
+	 */
 
     public static void main(String[] args) {
         try {
@@ -32,9 +38,25 @@ public class Main {
                 String linea = lector.nextLine();
                 String[] partes = linea.split(";");
 
-                idProducto[totalProductos] = Integer.parseInt(partes[0]);
-                nombreProducto[totalProductos] = partes[1];
-                precioProducto[totalProductos] = Integer.parseInt(partes[2]);
+                // Validar que la linea tenga 3 partes
+                if (partes.length != 3) {
+                    System.out.println("ADVERTENCIA: Linea mal formada en productos.txt: " + linea);
+                    continue;
+                }
+
+                int id = Integer.parseInt(partes[0]);
+                String nombre = partes[1];
+                int precio = Integer.parseInt(partes[2]);
+
+                // Validar que el precio sea positivo
+                if (precio < 0) {
+                    System.out.println("ADVERTENCIA: Precio negativo en producto " + nombre);
+                    continue;
+                }
+
+                idProducto[totalProductos] = id;
+                nombreProducto[totalProductos] = nombre;
+                precioProducto[totalProductos] = precio;
                 cantidadVendida[totalProductos] = 0;
 
                 totalProductos++;
@@ -91,10 +113,24 @@ public class Main {
                         if (linea.equals("")) continue;
 
                         String[] partes = linea.split(";");
+
+                        // Validar que la linea tenga al menos 2 partes
+                        if (partes.length < 2) {
+                            System.out.println("ADVERTENCIA: Linea mal formada en " + nombre);
+                            continue;
+                        }
+
                         int id = Integer.parseInt(partes[0]);
                         int cant = Integer.parseInt(partes[1]);
 
+                        // Validar que la cantidad sea positiva
+                        if (cant < 0) {
+                            System.out.println("ADVERTENCIA: Cantidad negativa en " + nombre);
+                            continue;
+                        }
+
                         // Buscar el producto
+                        boolean encontrado = false;
                         for (int p = 0; p < totalProductos; p++) {
                             if (idProducto[p] == id) {
                                 cantidadVendida[p] = cantidadVendida[p] + cant;
@@ -102,8 +138,14 @@ public class Main {
                                     dineroVendedor[posVendedor] =
                                         dineroVendedor[posVendedor] + (precioProducto[p] * cant);
                                 }
+                                encontrado = true;
                                 break;
                             }
+                        }
+
+                        // Validar que el producto exista
+                        if (!encontrado) {
+                            System.out.println("ADVERTENCIA: Producto con ID " + id + " no existe.");
                         }
                     }
                     lector.close();
